@@ -1,0 +1,147 @@
+div,h4,h1, h5{
+/*	border: 1px solid red;
+*/
+}
+
+h4, h1, h5{
+	width: 100%;
+	display: inline;
+}
+
+body{
+	background-image: url("assets/bg.png");
+}
+
+#mtn{
+	background-image: url("assets/FM.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px;
+	height: 212px;
+}
+.row{
+	border: 1px solid black;
+	border-radius: 10px;
+
+}
+#portrait{
+	height: 200px;
+	padding-top: 20px;
+	position: relative;
+	top: 10px;
+	right: 150px;
+}
+
+.icon{
+	height: 30px;
+	border-radius: 5px;
+}
+
+.iconSm{
+	height: 23px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	float: left;
+	padding-left: 5px;
+}
+
+.title{
+ top: 50px;
+}
+.charName{
+color: #FFFFFF;
+font-size: 500%;
+display: inline;
+font-family: 'IM Fell English SC', serif;
+width: auto;
+}
+
+.charType{
+	color: #FFFFFF;
+	position: relative;
+display: inline;
+font-family: 'IM Fell English SC', serif;
+top: 25px;
+right: 200px;
+
+}
+.skill{
+	border: 1px dotted black;
+	display: inline-block;
+	margin: 3px;
+	width: 100%;
+	border-radius: 10px;
+	cursor:pointer;
+/*	text-align: left;*/
+}
+
+.row{
+	padding: 5px;
+	text-align: center;
+}
+
+.str{
+	background-color: #BC4048;
+
+}
+
+.dex{
+	background-color: #DBC660;
+}
+
+.con{
+	background-color: #4871C9;
+}
+
+.int{
+	background-color: #63AD5F;
+}
+
+.wis{
+	background-color: #9570AA;
+}
+
+.cha{
+	background-color: #EA954F;
+}
+
+.stat{
+	font-weight: 900;
+	color: black;
+	text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+.save{
+	font-weight: 450;
+	color: black;
+
+}
+
+.dice{
+/*	border:solid red 1px;
+*/	height: 50px;
+	width: 50px;
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+	cursor:pointer;
+	background-color: white;
+	font-weight: 900;
+	font-size: 100%;
+	border-radius: 10px;
+
+
+}
+
+.diceBag{
+
+}
+
+#modal-text2{
+	color: red;
+}
